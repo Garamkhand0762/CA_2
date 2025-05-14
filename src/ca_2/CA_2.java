@@ -124,7 +124,7 @@ public class CA_2{
                 break;
         }
     }
-
+ 
     private void AddEmployee() {
          scanner.nextLine();
         System.out.println("Please input the Player Name:");
@@ -136,7 +136,7 @@ public class CA_2{
         System.out.println("Please select from the following Management Staff:");
         System.out.println("1. Manager");
         System.out.println("2. Assistant Manager");
-        System.out.println("3. Team Lead");
+       System.out.println("3. Team Lead");
 
         int choice = scanner.nextInt();
         String jobTitle = "";
@@ -218,7 +218,7 @@ public class CA_2{
             System.out.println(employees.get(i));
         }
     }
-}
+} 
 
          
 
